@@ -1,0 +1,11 @@
+INSERT INTO `naudotojas` (`id_Naudotojas`, `naudotojo_vardas`, `naudotojo_pavarde`, `elektroninis_paštas`, `slaptažodis`) VALUES
+(1, 'Adminas', 'Adminauskas', 'admin@gmail.com', 'admin'),
+(2, 'Jonas', 'Jonauskas', 'jonas@gmail.com', 'jonas'),
+(3, 'Tomas', 'Tomauskas', 'tomas@gmail.com', 'tomas');
+
+INSERT INTO `klientas` (`id_Naudotojas`, `kliento_telefono_numeris`, `kliento_gimimo_data`, `kliento_lytis`) VALUES 
+('2', '864621579', '1999-12-14', 'Vyras'),
+('3', '869570041', '2000-05-20', 'Vyras');
+
+INSERT INTO `administratorius` (`id_Naudotojas`) 
+VALUES ('1');
